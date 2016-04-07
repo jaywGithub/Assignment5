@@ -1,6 +1,7 @@
 package za.ac.cput.jayson.courierCost;
 
 import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import za.ac.cput.jayson.factories.courierCost.CourierCostBuilder;
 
@@ -8,6 +9,7 @@ import za.ac.cput.jayson.factories.courierCost.CourierCostBuilder;
  * Created by JAYSON on 2016-04-03.
  */
 public class TestCourierCost {
+    private CourierCostBuilder courierCostBuilder;
     @Test
     public void testCourierCost()throws Exception
     {
