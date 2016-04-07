@@ -19,7 +19,7 @@ import za.ac.cput.jayson.domain.transport.Regular;
 /**
  * Created by JAYSON on 2016-04-03.
  */
-public class TestDomainObjectCreation {
+public class TestObject_Creation_Update {
 
     //DistanceCost Object test
 
