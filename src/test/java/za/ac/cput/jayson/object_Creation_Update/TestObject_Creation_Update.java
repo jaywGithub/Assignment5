@@ -29,7 +29,7 @@ public class TestObject_Creation_Update {
         DistanceCost distanceCost = new DistanceCost();
         distanceCost.setDistance(25);
 
-        Assert.assertNotNull(distanceCost);
+        Assert.assertEquals(distanceCost.getDistance(), 25.0);
     }
 
     @Test

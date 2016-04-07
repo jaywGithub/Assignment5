@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09c98896-b07e-435a-bc97-bf9255510a96" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestDomainObjectCreation.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java" afterPath="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java" />
     </list>
     <ignored path="tp2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,10 +90,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PackageSize.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PackageSize.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/domain/courierPackage/PackageSize.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43234324">
+            <state vertical-scroll-proportion="0.0">
               <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
               <folding>
                 <element signature="e#1520#1521#0" expanded="true" />
@@ -125,11 +125,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestObject_Creation_Update.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestObject_Creation_Update.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="254" column="43" selection-start-line="254" selection-start-column="43" selection-end-line="254" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.6425121">
+              <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -156,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/services/employees/LicenseBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/services/employees/Implementation/LicenseBuilderServiceImplementation.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/services/employees/Implementation/ServiceImplementation_Express1.java" />
         <option value="$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/services/employees/Implementation/ServiceImplementation_Express2.java" />
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/employee/TestEmployee.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/objectCreation/TestDomainObjectCreation.java" />
         <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestDomainObjectCreation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java" />
       </list>
     </option>
   </component>
@@ -382,7 +382,7 @@
       <recent name="C:\Users\JAYSON\Desktop\tp\tp2-master\src\main\java\za\ac\cput\jayson\services\employees" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestObject_Creation_Update">
+  <component name="RunManager">
     <configuration default="false" name="TestTransport" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -999,16 +999,13 @@
       <workItem from="1458674968907" duration="1622000" />
       <workItem from="1458738698684" duration="955000" />
       <workItem from="1459094008266" duration="65016000" />
-      <workItem from="1460047858411" duration="6684000" />
+      <workItem from="1460047858411" duration="6957000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="TestCourierCost - 2016.04.07 at 20h 29m 05s.xml">
       <configuration name="TestCourierCost" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestDomainObjectCreation - 2016.04.07 at 20h 19m 09s.xml">
-      <configuration name="TestDomainObjectCreation" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestDomainObjectCreation - 2016.04.07 at 20h 19m 48s.xml">
       <configuration name="TestDomainObjectCreation" configurationId="TestNG" />
@@ -1028,6 +1025,9 @@
     <history-entry file="TestDomainObjectCreation - 2016.04.07 at 20h 29m 16s.xml">
       <configuration name="TestDomainObjectCreation" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TestObject_Creation_Update - 2016.04.07 at 20h 47m 10s.xml">
+      <configuration name="TestObject_Creation_Update" configurationId="TestNG" />
+    </history-entry>
     <history-entry file="za_ac_cput_jayson_in_tp2 - 2016.04.07 at 20h 28m 44s.xml">
       <configuration name="za.ac.cput.jayson in tp2" configurationId="JUnit" />
     </history-entry>
@@ -1036,7 +1036,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83496000" />
+    <option name="totallyTimeSpent" value="83769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
@@ -1049,7 +1049,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30283913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30283913" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1512,14 +1512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="254" column="43" selection-start-line="254" selection-start-column="43" selection-end-line="254" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/factories/transport/TransportFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1532,12 +1524,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/za/ac/cput/jayson/domain/courierPackage/PackageSize.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43234324">
+        <state vertical-scroll-proportion="0.0">
           <caret line="105" column="33" selection-start-line="105" selection-start-column="33" selection-end-line="105" selection-end-column="33" />
           <folding>
             <element signature="e#1520#1521#0" expanded="true" />
             <element signature="e#1558#1559#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/za/ac/cput/jayson/object_Creation_Update/TestObject_Creation_Update.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6425121">
+          <caret line="31" column="60" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
